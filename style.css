@@ -56,8 +56,17 @@ ul{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
     
+}
+
+.purpose-right{
+    padding-right:250px;
+
+}
+
+.purpose-left   {
+    padding-left:200px;
+    padding-right:60px;
 }
 
 img{
