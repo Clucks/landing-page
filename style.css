@@ -76,7 +76,7 @@ img{
     max-width: 450px;
 }
 
-button{
+.signup-button{
     background-color: #3882f6;
     border-radius:10px;
     border:none;
@@ -167,15 +167,42 @@ button{
 
 .blue-section{
     display:flex;
+    justify-content: space-between;
+    align-items: center;
     
     background-color:#3882f6;
     border-radius: 10px;
 
-    margin:100px 370px;
-    padding:50px;
+    margin:100px 450px;
+    padding:20px 50px;
 }
 
+.call-section{
+    padding: 25px;
+}
 
 .call{
-    font-weight:700px;
+    font-size:20px;
+    font-weight:800;
+    color:#F9FAF8;
+    
 }   
+
+.call-desc{
+    color:#F9FAF8;
+}
+
+.call-button{
+    background-color: #3882f6;
+    border-radius:10px;
+    font-size:20px;
+    font-weight: 700;
+    padding: 10px 35px;
+    color:#F9FAF8;
+    border-color:#F9FAF8;
+    
+}
+
+ .call-sectionright{
+    padding: 0 90px 0 0;
+ }
